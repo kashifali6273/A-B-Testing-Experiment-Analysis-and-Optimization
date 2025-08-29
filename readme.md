@@ -44,23 +44,32 @@ This project implements a **complete data pipeline for marketing campaign analys
 
 ## 🔹 Project Structure
 
+
+## 📂 Project Structure
+
 ab_testing_project/
 │
-├─ data/ # Synthetic datasets
-├─ results/ # Reports and plots
-│ └─ plots/
+├─ data/                     # Synthetic datasets
+├─ results/                  # Reports and plots
+│  └─ plots/
 ├─ src/
-│ ├─ data_generator.py # Generate synthetic data
-│ ├─ analysis.py # A/B test & confidence intervals
-│ ├─ optimisation.py # Budget optimisation
-│ ├─ visualize.py # Plotting functions
-│ ├─ report_generator.py# Markdown report generation
-│ └─ eda.py # Optional exploratory analysis
-├─ main.py # CLI & pipeline execution
+│  ├─ data_generator.py      # Generate synthetic data
+│  ├─ analysis.py            # A/B test & confidence intervals
+│  ├─ optimisation.py        # Budget optimisation
+│  ├─ visualize.py           # Plotting functions
+│  ├─ report_generator.py    # Markdown report generation
+│  └─ eda.py                 # Optional exploratory analysis
+├─ main.py                   # CLI & pipeline execution
 └─ README.md
 
-
 ---
+
+## 🚀 How to Run
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/ab_testing_project.git
+   cd ab_testing_project
 
 ##  How to Run
 
