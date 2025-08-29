@@ -44,9 +44,6 @@ This project implements a **complete data pipeline for marketing campaign analys
 
 ## 🔹 Project Structure
 
-
-## 📂 Project Structure
-
 ab_testing_project/
 │
 ├─ data/                     # Synthetic datasets
